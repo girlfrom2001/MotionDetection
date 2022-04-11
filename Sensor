@@ -1,0 +1,25 @@
+#!/python3
+
+import RPi.GPIO as GPIO
+import time
+
+GPIO.setmode(GPIO.BCM)
+GPIO.setwarnings(False)
+
+GPIO.setup(23, GPIO.IN) #pin from sensor GPIO that takes input
+GPIO.setup(26, GPIO.OUT) #pin light is on
+
+#ground
+#GPIO
+#power
+
+while True:
+  i = GPIO.input(23)
+  if i == 0: #low output from sensor
+    print("No motion detected.", i)
+    GPIO.output(26, 0) #light off
+    time.sleep(0.5)
+   elif i == 1: #high output from sensor
+    print("Motion detected.", i)
+    GPIO.output(26, 1) #light on
+    time.sleep(0.5)
