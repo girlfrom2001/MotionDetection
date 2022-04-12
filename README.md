@@ -61,3 +61,4 @@ red = power/vcc
 
 ## Make it work:
 
+When you run the program after it is set up, it should output "Motion detected". You can adjust the sensitivity sensor first.
