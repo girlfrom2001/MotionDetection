@@ -9,7 +9,7 @@ GPIO.setwarnings(False)
 GPIO.setup(23, GPIO.IN) #pin from sensor GPIO that takes input
 GPIO.setup(26, GPIO.OUT) #pin light is on
 
-# cmd + c to quit loop
+# ctrl + c to quit loop
 
 # white = ground
 # blue/green = GPIO
