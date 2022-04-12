@@ -9,16 +9,20 @@ GPIO.setwarnings(False)
 GPIO.setup(23, GPIO.IN) #pin from sensor GPIO that takes input
 GPIO.setup(26, GPIO.OUT) #pin light is on
 
-#ground
-#GPIO
-#power
+# cmd + c to quit loop
+
+# white = ground
+# blue/green = GPIO
+# red = power
 
 while True:
-  i = GPIO.input(23)
+  
+  i = GPIO.input(23) # motion sensor pin
   if i == 0: #low output from sensor
     print("No motion detected.", i)
     GPIO.output(26, 0) #light off
     time.sleep(0.5)
+    
    elif i == 1: #high output from sensor
     print("Motion detected.", i)
     GPIO.output(26, 1) #light on
