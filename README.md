@@ -19,13 +19,20 @@ The code will be in a <b>while</b> loop aka the <i>forever</i> loop. To exit out
 
 This website shows which one is ground, gpio, power and the knobs to adjust the settings. Don't mess with the delay time or the sensitivity on the sensor until you have the light set up and the code running.
 
-https://learn.adafruit.com/pir-passive-infrared-proximity-motion-sensor 
+https://learn.adafruit.com/pir-passive-infrared-proximity-motion-sensor
 
 ## Setting it up:
 ( I don't have the GPIO ribbon cable. )
 
-I recommend getting 3 pairs to set up the motion sensor - 2 white for ground, 2 green for gpio, 2 red for power/vcc.
+I recommend getting 3 pairs to set up the motion sensor - 2 white for ground, 2 green for gpio, 2 red for power/vcc. The sensor doesn't fit comfortably into the breadboard so I connected the wires to the sensor, then additional wires from the breadboard to the pi.
 
-Place the light onto the breadboard. The positive end will connect with 
+Place the light onto the breadboard. The negative end will connect with ground to the pi. The positive end will connect with a resistor to a wire on the breadboard to GPIO.
 
-[E2694E48-E06B-41F3-9D3A-45ED51D4ACBA](https://user-images.githubusercontent.com/100165896/163053344-796b186e-7fbe-48e0-b3fb-cb87cebf7ca4.jpeg)
+Look at the motion sensor from the bottom with the orange dials closest to you. The black rectangular component will be on the left. Looking at the pins from left to right: ground, GPIO, VCC/power.
+
+I put the motion sensor wires to the right half of the breadboard, but you can put it before the wires from the light if it's convenient for you.
+
+[My setup](https://user-images.githubusercontent.com/100165896/163053344-796b186e-7fbe-48e0-b3fb-cb87cebf7ca4.jpeg)
+
+## Make it work:
+
