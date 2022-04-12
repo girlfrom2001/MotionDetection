@@ -5,6 +5,8 @@ The motion detection sensor reads input and produces no output or light.
 
 Setting up the light and testing it beforehand helps see the motion detection working.
 
+The code will be in a <b>while</b> loop aka the <i>forever</i> loop. To exit out of the program, press "ctrl + c".
+
 ## Tools:
 * 6 male to female cords
 * 1 light
