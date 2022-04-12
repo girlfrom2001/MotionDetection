@@ -61,4 +61,4 @@ red = power/vcc
 
 ## Make it work:
 
-When you run the program after it is set up, it should output "Motion detected". You can adjust the sensitivity sensor first.
+Look at the motion sensor from the bottom with the orange dials closest to you. The black rectangular component will be on the left. The left most orange dial will change the delay time. The right most orange dial will change the sensitivity of how close an object has to be. When you run the program after it is set up, it should output "Motion detected". You can adjust the sensitivity sensor first.
