@@ -28,7 +28,7 @@ I recommend getting 3 pairs to set up the motion sensor - 2 white for ground, 2 
 
 Place the light onto the breadboard. The negative end will connect with ground to the pi. The positive end will connect with a resistor to a wire on the breadboard to GPIO.
 
-Look at the motion sensor from the bottom with the orange dials closest to you. The black rectangular component will be on the left. Looking at the pins from left to right: ground, GPIO, VCC/power. The power wires connected to the sensor on the breadboard are on separate grids with a 330 resistor connecting them.
+Look at the motion sensor from the bottom with the orange dials closest to you. The black rectangular component will be on the left. Looking at the pins from left to right: ground, GPIO, VCC/power. The power wires connected to the sensor on the breadboard are on separate grids with a 330 resistor connecting them. You don't necessarily need a resistor for the sensor.
 
 I put the motion sensor wires to the right half of the breadboard, but you can put it before the wires from the light if it's convenient for you.
 
