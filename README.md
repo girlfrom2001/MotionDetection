@@ -1,7 +1,7 @@
 # Motion Detection
 Motion detection with a light.
 
-The motion detection sensor reads input and produces no output or light. Set up the light and test it beforehand helps see the motion detection working.
+The motion detection sensor reads input and produces no output or light. Set up the light and test it beforehand helps see the motion detection working. There are no depository to create.
 
 You don't have to use the same pins that I use or wire colors that I use.
 
